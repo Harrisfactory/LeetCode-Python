@@ -18,7 +18,7 @@ class Solution:
             #if there is a left root, add to list
             if root.left:
                 preorder_list = preorder_list + self.preorderTraversal(root.left)
-            #if there is a right roog, add to list
+            #if there is a right root, add to list
             if root.right:
                 preorder_list = preorder_list + self.preorderTraversal(root.right)
         return preorder_list
