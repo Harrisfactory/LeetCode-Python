@@ -19,7 +19,7 @@ class Solution:
             num_frequencies.pop(max_key)
             #append current max
             most_nums.append(max_key)
-            #lower amount needed
+            #lower amount thats needed
             k = k - 1
 
         return most_nums
